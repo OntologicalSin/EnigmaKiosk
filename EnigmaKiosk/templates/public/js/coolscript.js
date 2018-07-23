@@ -25,10 +25,23 @@ recognition.onresult = function(event) {
   var current = event.resultIndex;
   var transcript = event.results[current][0].transcript;
   console.log(transcript);
+
+  // requirejs(["google-translate-api"], function(util) {
+  // });
+  // 
+  // translate('transcript', {to: 'en'}).then(res => {
+  //     console.log(res.text);
+  //     //=> I speak English
+  //     console.log(res.from.language.iso);
+  //     //=> nl
+  // }).catch(err => {
+  //     console.error(err);
+  // });
+
 	$.ajax({
 		    type: 'POST',
 		    url: '/send',
-		    data: transcript,
+		    data: res.from.language.iso,
 		    processData: false,
 		    contentType: false,
 		    success: function(response) {
@@ -37,8 +50,10 @@ recognition.onresult = function(event) {
 			});
 }
 
-function doStuff(){
+function doStuff(lang){
+
 	recognition.start();
+  recognition.lang = lang;
 }
 
 function sayStuff(){
