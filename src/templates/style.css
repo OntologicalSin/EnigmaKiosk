@@ -1,0 +1,21 @@
+
+body{
+    background-color: #42f4d9;
+  }
+.logo
+{
+   height: 20%;
+   background-color: ##42d1f4;
+}
+.mic
+{
+  height: 30%;
+}
+.instruction
+{
+  height: 10%;
+}
+.menu
+{
+  display: block;
+}
