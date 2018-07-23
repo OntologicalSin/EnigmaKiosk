@@ -1,0 +1,38 @@
+{
+  "entrees":[
+    {"name":"burger", "ingredients": ["sesame seed bun", "sesame seed bun", "patty", "lettuce", "tomato", "cheese"], "price": 5},
+    {"name":"hotdog", "ingredients": ["hotdog bun", "beef hotdog", "onions", "relish"], "price": 4},
+    {"name":"chicken", "ingredients": ["chicken"], "price": 6},
+    {"name":"beef", "ingredients": ["beef"], "price": 8}
+  ],
+
+  "appetizers":[
+    {"name":"bread", "ingredients": ["wheat"], "price": 2},
+    {"name":"chips", "ingredients": ["potato", "salt"], "price": 2},
+    {"name":"salad", "ingredients": ["lettuce", "tomato", "croutons", "dressing of choice", "cheese", "carrots", "onion"], "price": 3},
+    {"name":"onion rings", "ingredients": ["onion", "breading"], "price": 4},
+    {"name":"nachos", "ingredients": ["chips", "dip of choice"], "price": 4}
+  ],
+
+  "sides":[
+    {"name":"fries", "ingredients": ["potatoes"], "price": 3},
+    {"name":"hash browns", "ingredients": ["potatoes"], "price": 3},
+    {"name":"potatoes", "ingredients": ["potatoes"], "price": 2},
+    {"name":"vegetables", "ingredients": ["carrots", "celery", "grapes"], "price": 5}
+  ],
+
+  "desserts":[
+    {"name":"ice cream", "ingredients": ["milk", "cherries", "nuts"], "price": 2},
+    {"name":"cake", "ingredients": ["chocolate", "milk", "butter", "flour", "sugar"], "price": 6},
+    {"name":"fudge", "ingredients": ["chocolate", "milk", "butter"], "price": 2}
+  ],
+
+  "drinks":[
+    {"name":"coke", "ingredients": ["water", "syrup", "sugar"], "price": 1},
+    {"name":"water", "ingredients": ["water"], "price": 0},
+    {"name":"sprite", "ingredients": ["water", "syrup", "sugar"], "price": 1},
+    {"name":"milk", "ingredients": ["milk"], "price": 2},
+    {"name":"gatorade", "ingredients": ["water", "sugar", "electrolytes"], "price": 3},
+    {"name":"mountain dew", "ingredients": ["water", "syrup", "sugar"], "price": 1}
+  ]
+}
