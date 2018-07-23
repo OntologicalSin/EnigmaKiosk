@@ -25,23 +25,15 @@ recognition.onresult = function(event) {
   var current = event.resultIndex;
   var transcript = event.results[current][0].transcript;
   console.log(transcript);
-
-  // requirejs(["google-translate-api"], function(util) {
-  // });
-  // 
-  // translate('transcript', {to: 'en'}).then(res => {
-  //     console.log(res.text);
-  //     //=> I speak English
-  //     console.log(res.from.language.iso);
-  //     //=> nl
-  // }).catch(err => {
-  //     console.error(err);
+  //
+  // googleTranslate.detectLanguage(transcript, function(err, detection) {
+  // console.log(detection.language);
   // });
 
 	$.ajax({
 		    type: 'POST',
 		    url: '/send',
-		    data: res.from.language.iso,
+		    data: transcript,
 		    processData: false,
 		    contentType: false,
 		    success: function(response) {
