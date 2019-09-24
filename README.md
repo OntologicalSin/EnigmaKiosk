@@ -15,7 +15,7 @@ Run the app.py and navigate to `localhost:4200` in your browser
 * [TornadoWebServer](https://www.tornadoweb.org/en/stable/) - The web framework used
 * [NLTK](https://www.nltk.org/api/nltk.html) - Natural Language Processing
 * [pydub](https://github.com/jiaaro/pydub) - Audio Manipulation
-* [ChatterBot] (https://github.com/gunthercox/ChatterBot) - Adding conversational functionality
+* [ChatterBot](https://github.com/gunthercox/ChatterBot) - Adding conversational functionality
 
 ## Authors
 
