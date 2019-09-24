@@ -8,17 +8,14 @@ Clone this repo to your local machine using `https://github.com/OntologicalSin/E
 
 ## Deployment
 
-PiDog-Machine is to be deployed on a raspberry pi or any other device configured with a camera for visual processing.
-PiDog-Mobile must be deployed on an Android Phone connected to the same network as the hardware device.
-
-## Built With
+Run the app.py and navigate to `localhost:4200` in your browser
 
 ## Built With
 
 * [TornadoWebServer](https://www.tornadoweb.org/en/stable/) - The web framework used
 * [NLTK](https://www.nltk.org/api/nltk.html) - Natural Language Processing
 * [pydub](https://github.com/jiaaro/pydub) - Audio Manipulation
-* [ChatterBot] (https://github.com/gunthercox/ChatterBot)
+* [ChatterBot] (https://github.com/gunthercox/ChatterBot) - Adding conversational functionality
 
 ## Authors
 
